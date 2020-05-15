@@ -27,7 +27,7 @@ class StackPages extends StatefulWidget {
 }
 
 class Page extends State<StackPages> {
-  int _currentIndex;
+  int _currentIndex = 0;
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
