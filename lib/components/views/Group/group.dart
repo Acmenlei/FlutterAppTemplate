@@ -5,7 +5,7 @@ class Group extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(title: Text('小组')),
+      appBar: AppBar(title: Center(child: Text('小组'),)),
       body: Center(
           child: Text(
         '小组',

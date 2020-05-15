@@ -5,7 +5,7 @@ class Subject extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(title: Text('书影音')),
+      appBar: AppBar(title: Center(child: Text('书影音'),)),
       body: Center(
           child: Text(
         '书影音',
